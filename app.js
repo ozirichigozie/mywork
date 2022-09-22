@@ -1,6 +1,6 @@
-var fruit = ['', 'apple', 'orange', 'pineapple', 'mango', 'pear', 'lemon', 'plum'];
-
-var ask_user = prompt('Welcome! want to play my guessing game of seven fruits? type 1 for yes or 0 for no ')
+function fruitGuessingGame() {
+    var fruit = ['', 'apple', 'orange', 'pineapple', 'mango', 'pear', 'lemon', 'plum'];
+    var ask_user = prompt('Welcome! want to play my guessing game of seven fruits? \n Type 1 for yes or 0 for no ')
     
     if (ask_user == 1) {
         for (let index = 1; index < fruit.length; index++) {
@@ -23,6 +23,7 @@ var ask_user = prompt('Welcome! want to play my guessing game of seven fruits? t
         alert('See you again!')
     }
 
+}
 
 function dataProcessing() {
     var fname = document.getElementById("fname").value
