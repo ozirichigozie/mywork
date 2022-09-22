@@ -4,7 +4,7 @@ body {
     color: cyan;
 }
 
-h1 {
+h1, h2 {
     text-align: center;
     color: aqua;
     font-weight: bolder;

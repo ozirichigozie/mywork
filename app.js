@@ -22,3 +22,16 @@ var ask_user = prompt('Welcome! want to play my guessing game of seven fruits? t
     } else {
         alert('See you again!')
     }
+
+
+function dataProcessing() {
+    var fname = document.getElementById("fname").value
+    var age = document.getElementById("age").value
+    var ageDifference = (18 - fname);
+
+    if (age >= 18) {
+        alert(`Congratulations ${fname}! You're old enough to own a car.`)
+    } else {
+        alert(`Sorry ${fname}! You're not old enough to own a car. Come back in ${ageDifference} years' time`)
+    }
+}
