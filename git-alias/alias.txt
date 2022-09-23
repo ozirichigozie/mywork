@@ -5,3 +5,4 @@ st == status
 in == init
 rm == remote
 rt == restore
+cho == checkout
