@@ -1,0 +1,7 @@
+g == git 
+gl == git log
+gc == git commit
+gs == git status
+gi == git init
+grm == git remote
+grt == git restore
